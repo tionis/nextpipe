@@ -1,0 +1,120 @@
+# flyctl launch added from .gitignore
+**/.idea
+**/.vscode
+**/patchwork
+**/bins
+**/db.sqlite3
+**/db.sqlite3-shm
+**/db.sqlite3-wal
+
+# flyctl launch added from vendor/github.com/armortal/webcrypto-go/.gitignore
+# Copyright 2023-2024 ARMORTAL TECHNOLOGIES PTY LTD
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# 	http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+vendor/github.com/armortal/webcrypto-go/**/*.exe
+vendor/github.com/armortal/webcrypto-go/**/*.exe~
+vendor/github.com/armortal/webcrypto-go/**/*.dll
+vendor/github.com/armortal/webcrypto-go/**/*.so
+vendor/github.com/armortal/webcrypto-go/**/*.dylib
+
+# Test binary, built with `go test -c`
+vendor/github.com/armortal/webcrypto-go/**/*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+vendor/github.com/armortal/webcrypto-go/**/*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+vendor/github.com/armortal/webcrypto-go/**/go.work
+
+# flyctl launch added from vendor/github.com/biscuit-auth/biscuit-go/v2/.gitignore
+vendor/github.com/biscuit-auth/biscuit-go/v2/**/build
+vendor/github.com/biscuit-auth/biscuit-go/v2/**/.gobincache
+
+# flyctl launch added from vendor/github.com/gorilla/mux/.gitignore
+vendor/github.com/gorilla/mux/**/coverage.coverprofile
+
+# flyctl launch added from vendor/github.com/gorilla/websocket/.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+vendor/github.com/gorilla/websocket/**/*.o
+vendor/github.com/gorilla/websocket/**/*.a
+vendor/github.com/gorilla/websocket/**/*.so
+
+# Folders
+vendor/github.com/gorilla/websocket/**/_obj
+vendor/github.com/gorilla/websocket/**/_test
+
+# Architecture specific extensions/prefixes
+vendor/github.com/gorilla/websocket/**/*.[568vq]
+vendor/github.com/gorilla/websocket/**/[568vq].out
+
+vendor/github.com/gorilla/websocket/**/*.cgo1.go
+vendor/github.com/gorilla/websocket/**/*.cgo2.c
+vendor/github.com/gorilla/websocket/**/_cgo_defun.c
+vendor/github.com/gorilla/websocket/**/_cgo_gotypes.go
+vendor/github.com/gorilla/websocket/**/_cgo_export.*
+
+vendor/github.com/gorilla/websocket/**/_testmain.go
+
+vendor/github.com/gorilla/websocket/**/*.exe
+
+vendor/github.com/gorilla/websocket/**/.idea
+vendor/github.com/gorilla/websocket/**/*.iml
+
+# flyctl launch added from vendor/github.com/hiddeco/sshsig/.gitignore
+# Output of the go coverage tool
+vendor/github.com/hiddeco/sshsig/**/*.out
+
+# flyctl launch added from vendor/github.com/russross/blackfriday/v2/.gitignore
+vendor/github.com/russross/blackfriday/v2/**/*.out
+vendor/github.com/russross/blackfriday/v2/**/*.swp
+vendor/github.com/russross/blackfriday/v2/**/*.8
+vendor/github.com/russross/blackfriday/v2/**/*.6
+vendor/github.com/russross/blackfriday/v2/**/_obj
+vendor/github.com/russross/blackfriday/v2/**/_test*
+vendor/github.com/russross/blackfriday/v2/**/markdown
+vendor/github.com/russross/blackfriday/v2/**/tags
+
+# flyctl launch added from vendor/github.com/sirupsen/logrus/.gitignore
+vendor/github.com/sirupsen/logrus/**/logrus
+vendor/github.com/sirupsen/logrus/**/vendor
+
+vendor/github.com/sirupsen/logrus/**/.idea
+
+# flyctl launch added from vendor/github.com/urfave/cli/v2/.gitignore
+vendor/github.com/urfave/cli/v2/**/*.coverprofile
+vendor/github.com/urfave/cli/v2/**/*.exe
+vendor/github.com/urfave/cli/v2/**/*.orig
+vendor/github.com/urfave/cli/v2/**/.*envrc
+vendor/github.com/urfave/cli/v2/**/.envrc
+vendor/github.com/urfave/cli/v2/**/.idea
+# goimports is installed here if not available
+vendor/github.com/urfave/cli/v2/.local
+vendor/github.com/urfave/cli/v2/site
+vendor/github.com/urfave/cli/v2/**/coverage.txt
+vendor/github.com/urfave/cli/v2/**/internal/*/built-example
+vendor/github.com/urfave/cli/v2/**/vendor
+vendor/github.com/urfave/cli/v2/cmd/urfave-cli-genflags/urfave-cli-genflags
+vendor/github.com/urfave/cli/v2/**/*.exe
+
+# flyctl launch added from vendor/golang.org/x/sys/unix/.gitignore
+vendor/golang.org/x/sys/unix/**/_obj
+vendor/golang.org/x/sys/unix/**/unix.test
+fly.toml

@@ -1,5 +1,7 @@
 # Nextpipe
 
+> This is a work in progress in the early stages. Currently the code is practically the same as [patchwork](https://github.com/tionis/patchwork)
+
 Nextpipe is a simple communication backend to distribute data mainly meant for scripts and small applications.  
 It's design is based [patchbay.pub's](https://patchbay.pub) with the addition of an authentication layer based
 on tokens fetch from a nextcloud instance (or any Webdav host).  

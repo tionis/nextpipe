@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for patch on 2024-03-27T19:56:33+01:00
+# fly.toml app configuration file generated for nextpipe on 2024-11-19T15:24:00+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'patch'
+app = 'nextpipe'
 primary_region = 'ams'
 
 [build]
@@ -17,11 +17,11 @@ primary_region = 'ams'
   max_machines_running = 1
 
 [[http_service.checks]]
-    interval = '30s'
-    timeout = '5s'
-    grace_period = '10s'
-    method = 'GET'
-    path = '/status'
+  interval = '30s'
+  timeout = '5s'
+  grace_period = '10s'
+  method = 'GET'
+  path = '/status'
 
 [[vm]]
   memory = '256mb'
