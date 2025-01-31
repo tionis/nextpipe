@@ -1,4 +1,5 @@
 # Nextpipe
+> This was archived as I will integrate future ideas directly into patchwork and I don't want to depend too much on nextcloud due to it's complexity which makes it less reliable than I would like.
 
 > This is a work in progress in the early stages. Currently the code is practically the same as [patchwork](https://github.com/tionis/patchwork)
 
